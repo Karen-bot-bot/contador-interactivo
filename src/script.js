@@ -7,7 +7,7 @@ const btnReset = document.querySelector("#boton-reiniciar");
 
 btnAumentar.addEventListener("click", function () {
   contador++;
-  numeroContador.textContent = contador; // Actualizamos el número en pantalla
+  numeroContador.textContent = contador; 
 });
 
 btnDisminuir.addEventListener("click", function () {
