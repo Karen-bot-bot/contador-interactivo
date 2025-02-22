@@ -89,8 +89,42 @@ button {
   background-color: rgba(184, 0, 0, 0.952);
 }
 
-@media (max-width: 440px) {
-  .main,
+@media (max-width: 370px) {
+  .main {
+    width: 95%;
+  }
+
+  .numero,
+  .botones {
+    width: 90%;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .numero {
+    font-size: 2.5rem;
+  }
+
+  button {
+    font-size: 0.9rem;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 394px) and (min-width: 370px) {
+  .main {
+    width: 95%;
+  }
+
+  .numero,
+  .botones {
+    width: 90%;
+  }
+}
+
+@media (max-width: 440px) and (min-width: 394px) {
   .numero,
   .botones {
     width: 90%;
@@ -98,10 +132,6 @@ button {
 }
 
 @media (max-width: 480px) and (min-width: 440px) {
-  .main {
-    width: 90%;
-  }
-
   .numero,
   .botones {
     width: 80%;
@@ -109,12 +139,14 @@ button {
 }
 
 @media (max-width: 768px) and (min-width: 480px) {
-  .main {
-    width: 90%;
-  }
-
   .numero,
   .botones {
     width: 72%;
+  }
+}
+
+@media (max-width: 768px) and (min-width: 394px) {
+  .main {
+    width: 90%;
   }
 }
